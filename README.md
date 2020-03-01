@@ -1,6 +1,6 @@
-## Restourant static page
+## Restaurant static page
 
-This projects was made to learn basics about React components. It is a static front page that I made from a free design of the internet.
+This projects was made to learn basics about React components. It is a static front page that I made using React and a free design template from [freepik](https://www.freepik.com/).
 
 ## Credits
 
