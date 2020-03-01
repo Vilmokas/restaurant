@@ -1,0 +1,260 @@
+@import "_config.scss";
+
+header {
+  color: $white;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+
+  .logo {
+    float: left;
+    margin-left: 70px;
+    font-weight: bold;
+    width: 200px;
+  }
+
+  ul {
+    margin-right: 50px;
+    list-style-type: none;
+    float: right;
+
+    li {
+      display: inline;
+      margin-right: 20px;
+    }
+  }
+}
+
+footer {
+  color: $white;
+  background-image: url('../Images/Background/footer.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 5%;
+  margin: auto;
+  padding-top: 200px;
+
+  h5,
+  h6 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+}
+
+.title {
+  color: $white;
+  text-align: center;
+  margin-bottom: 300px;
+
+  h1 {
+    margin: auto;
+    width: 60%;
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: auto;
+    width: 40%;
+    font-size: 18px;
+  }
+}
+
+.popular {
+  text-align: center;
+  margin-bottom: 50px;
+
+  h2 {
+    font-weight: bold;
+    color: $blue;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+  }
+}
+
+.button {
+  background-color: $blue;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  width: 200px;
+  height: 35px;
+  letter-spacing: 2px;
+  color: $white;
+  font-size: 13px;
+  margin-top: 40px;
+}
+
+.card {
+  border-radius: 0;
+  border: none;
+  text-align: left;
+
+  h5,
+  h6 {
+    font-weight: bold;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  p {
+    font-size: small;
+  }
+
+  .card-img-top {
+    border-radius: inherit;
+  }
+}
+
+.discount {
+  background-color: $white;
+  margin: 0;
+
+  .row {
+    margin: 0;
+  }
+
+  .col {
+    padding: 0;
+  }
+
+  .info,
+  .info-left {
+    margin-left: 30px;
+    margin-top: 50px;
+
+    h3 {
+      width: 60%;
+      font-weight: bold;
+    }
+
+    p {
+      width: 80%;
+    }
+
+    .button {
+      margin-top: 20px;
+    }
+  }
+
+  .info-left {
+    margin-left: 70px;
+  }
+}
+
+.howto {
+  padding: 40px;
+  color: $white;
+  background-color: $blue;
+  text-align: center;
+
+  h3 {
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+  }
+
+  h4 {
+    font-weight: bold;
+  }
+
+  .circle {
+    font-weight: bold;
+    color: $blue;
+    background-color: $white;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: x-large;
+    line-height: 60px;
+  }
+}
+
+.delivery {
+    position: relative;
+    text-align: center;
+    color: $blue;
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    .info {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .button{
+        width: 250px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+}
+
+.contact {
+    text-align: center;
+    color: $blue;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    h1 {
+        font-size: 150px;
+        line-height: 100px;
+    }
+    
+    p {
+        width: 70%;
+        margin: auto;
+        font-size: 18px;
+        margin-top: -20px;
+    }
+
+    h3 {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .socials {
+        width: 20%;
+        margin: auto;
+        margin-top: 30px;
+
+        .icon {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            background-color: $blue;
+            color: $white;
+            display: inline-block;
+            margin-right: 10px;
+            line-height: 40px;
+            font-size: 20px;
+        }
+    }
+}

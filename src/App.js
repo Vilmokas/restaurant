@@ -1,24 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './Assets/css/default.min.css';
+import Header from './Components/Main/Header';
+import Footer from './Components/Main/Footer';
+import Title from './Components/Main/Title';
+import PopularMenu from './Components/Menu/PopularMenu';
+import DiscountDish from './Components/Menu/DiscountDish';
+import DiscountDishLeft from './Components/Menu/DiscountDishLeft';
+import HowToOrder from './Components/Info/HowToOrder';
+import FreeDelivery from './Components/Info/FreeDelivery';
+import Contacts from './Components/Info/Contacts';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Header />
+      <Title />
+      <PopularMenu />
+      <DiscountDish />
+      <DiscountDishLeft />
+      <HowToOrder />
+      <FreeDelivery />
+      <Contacts />
+      <Footer />
     </div>
   );
 }
